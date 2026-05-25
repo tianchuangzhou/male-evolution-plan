@@ -19,7 +19,28 @@ export const metadata: Metadata = {
     "男性成长",
     "大学计划",
     "强势文化",
+    "两性关系",
+    "穿搭",
+    "健身",
+    "理财",
   ],
+  openGraph: {
+    title: "男生进化论 — 21世纪男大学生强势完美进化指南",
+    description:
+      "学业、体魄、思维、社交、形象、搞钱——六大维度，大学四年完整行动计划。",
+    type: "website",
+    locale: "zh_CN",
+    siteName: "男生进化论",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "男生进化论 — 男大学生强势进化指南",
+    description:
+      "学业、体魄、思维、社交、形象、搞钱——六大维度，大学四年完整行动计划。",
+  },
+  alternates: {
+    canonical: "https://tianchuangzhou.github.io/male-evolution-plan",
+  },
 };
 
 export default function RootLayout({
